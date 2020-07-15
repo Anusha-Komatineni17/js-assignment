@@ -24,3 +24,22 @@ console.group() and console.groupEnd() - group() and groupEnd() methods of the c
 Custom Console Logs - User can add Styling to the console logs in order to make logs Custom . 
   The Syntax for it is to add the css styling as a parameter to the logs which will replace %c in the logs
 Console Sidebar - Console sidebar is used to organize logs and provides clarity in debugging experience.
+
+Example Code :
+
+console.log(1);
+console.error('This is a simple error'); 
+console.warn('This is a warning.'); 
+console.clear();
+console.table({'a':1, 'b':2}); 
+for(let i=0;i<5;i++){ 
+    console.count(i); 
+}
+console.time('abc'); 
+console.group('simple'); 
+  console.warn('warning!'); 
+  console.error('error here'); 
+  console.log('vivi vini vici'); 
+console.groupEnd('simple'); 
+console.timeEnd('abc');
+console.log('new section');
