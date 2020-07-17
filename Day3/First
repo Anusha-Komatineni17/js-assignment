@@ -1,4 +1,4 @@
-// HTML CODE
+// HTML CODE (EvenOdd.html)
 
 <html>
     <head>
@@ -12,7 +12,7 @@
 </html>
 
 
-//JS CODE
+//JS CODE (EvenOdd.js)
 
 var number=prompt("Please enter a number here ","");
 if(number%2==0)
